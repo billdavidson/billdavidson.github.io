@@ -1,0 +1,10 @@
+
+* text eol=lf
+
+*.html text
+*.js text
+*.xml text
+*.css text
+LICENSE text
+NOTICE text
+
