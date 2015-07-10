@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Colors
+title: "Colors"
 category: colors
 ---
 
 <p>
 stuff
 </p>
+
 
