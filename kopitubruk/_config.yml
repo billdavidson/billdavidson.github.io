@@ -1,6 +1,6 @@
 # Site settings
 title: Kopi Tubruk
-# email: your-email@domain.com
+email: bill.davidson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Kopi tubruk means instant coffee.  This my free Java stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
