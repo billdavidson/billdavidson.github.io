@@ -5,6 +5,7 @@
 *.js text
 *.xml text
 *.css text
+*.md text
 LICENSE text
 NOTICE text
-
+CNAME text
