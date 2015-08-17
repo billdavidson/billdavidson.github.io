@@ -6,4 +6,4 @@ categories: release JSONUtil
 ---
 JSONUtil 1.0 has been released.
 
-[//kopitubruk.org/JSONUtil](JSONUtil)
+[http://kopitubruk.org/JSONUtil](JSONUtil)
