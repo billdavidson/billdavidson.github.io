@@ -9,3 +9,12 @@
 LICENSE text
 NOTICE text
 CNAME text
+
+*.jar binary
+*.gif binary
+*.jpg binary
+*.ico binary
+*.png binary
+*.ttf binary
+*.woff binary
+*.otf binary
