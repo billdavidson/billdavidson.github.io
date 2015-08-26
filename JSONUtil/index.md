@@ -41,9 +41,11 @@ There is a run time dependency on the Apache Commons Logging facade so that
 it should work with whatever logging framework you already use. Logging is
 used for JNDI and JMX/MBeans and testing.
 
-[GitHub page for JSONUtil](https://github.com/billdavidson/JSONUtil)
+[GitHub releases page for JSONUtil](https://github.com/billdavidson/JSONUtil/releases)
 
 [Javadoc for JSONUtil 1.0 online](javadoc)
+
+[Get JSONUtil from the Maven Central Repository](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
 
 <h4 id="downloads">Downloads</h4>
 
@@ -52,27 +54,27 @@ used for JNDI and JMX/MBeans and testing.
   <tbody>
     <tr>
       <td>Java 8</td>
-      <td><a href="release/1.0/JSONUtil-1.0.jar">Binary</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-javadoc.jar">Javadoc</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0.jar">Binary</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 7</td>
-      <td><a href="release/1.0/JSONUtil-1.0-java7.jar">Binary</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-java7-javadoc.jar">Javadoc</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-java7-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7.jar">Binary</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 6</td>
-      <td><a href="release/1.0/JSONUtil-1.0-java6.jar">Binary</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-java6-javadoc.jar">Javadoc</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-java6-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6.jar">Binary</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 5</td>
-      <td><a href="release/1.0/JSONUtil-1.0-java5.jar">Binary</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-java5-javadoc.jar">Javadoc</a></td>
-      <td><a href="release/1.0/JSONUtil-1.0-java5-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5.jar">Binary</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5-sources.jar">Sources</a></td>
     </tr>
   </tbody>
 </table>
