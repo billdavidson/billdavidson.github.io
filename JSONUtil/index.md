@@ -10,7 +10,8 @@ allowing for iterations on your Map to be predictable by using a TreeMap or a
 LinkedHashMap which can be useful for debugging. You can also use any Iterable
 object or Enumeration to create a Javascript array or even use an actual array of
 objects or primitives. In many cases it may be possible to use existing data
-structures without modification.
+structures without modification.  Maps, Iterables, Enumerations and arrays are
+traversed, allowing you to encode complex data graphs in one call.
 
 There is also an interface provided called JSONAble which enables marking classes
 that can convert themselves to JSON and when those are encountered as the values
