@@ -3,6 +3,7 @@ layout: article
 permalink: /JSONUtil/
 title: "JSONUtil - A JSON Generation Utility Library for Java"
 comments: true
+categories: release
 ---
 
 This is a JSON generation library for Java.  Instead of creating its own maps for
