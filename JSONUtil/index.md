@@ -45,7 +45,7 @@ used for JNDI and JMX/MBeans and testing.
 
 [Javadoc for JSONUtil 1.0 online](javadoc)
 
-[Get JSONUtil from the Maven Central Repository](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
+[Get JSONUtil from the Maven Central Repository](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
 
 <h4 id="downloads">Downloads</h4>
 
@@ -79,8 +79,4 @@ used for JNDI and JMX/MBeans and testing.
   </tbody>
 </table>
 
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+<!-- /.tiles -->

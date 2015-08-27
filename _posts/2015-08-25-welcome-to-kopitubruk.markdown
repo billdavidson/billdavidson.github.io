@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 title:  "Welcome to Kopi Tubruk!"
 date:   2015-08-25 22:10:00
 categories: hello
