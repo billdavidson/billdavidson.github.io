@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /JSONUtil/
-title: "JSON Generation Utility"
+title: "JSONUtil - A JSON Generation Utility Library for Java"
 ---
 
 This is a JSON generation library for Java.  Instead of creating its own maps for
