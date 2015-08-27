@@ -5,7 +5,7 @@ description: Free Java Code
 logo: logo.jpg       # 120x120 px 
 teaser: teaser.jpg   # 400x250 px
 locale: en
-url: kopitubruk.org
+url: # kopitubruk.org
 
 # Jekyll configuration
 
@@ -22,15 +22,14 @@ gems:
 
 # Site owner
 owner:
-  name:
+  name: Bill Davidson
   email:
   twitter:
   google:
     ad-client: 
     ad-slot: 
   bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: kopitubruk
-
+  avatar: logo.jpg # 160x160 px image for author byline
+  disqus-shortname: kopitubruk
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

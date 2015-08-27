@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: article
 permalink: /JSONUtil/
 title: "JSONUtil - A JSON Generation Utility Library for Java"
 comments: true
