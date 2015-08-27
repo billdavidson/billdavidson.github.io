@@ -6,4 +6,4 @@ categories: release JSONUtil
 ---
 JSONUtil 1.0 has been released.
 
-[JSONUtil](JSONUtil/)
+[JSONUtil](/JSONUtil/)
