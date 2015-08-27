@@ -37,9 +37,10 @@ Files are included for the Maven project and an Eclipse project in GitHub.
 
 It has JUnit tests for most of the functionality.
 
-There is a run time dependency on the Apache Commons Logging facade so that
-it should work with whatever logging framework you already use. Logging is
-used for JNDI and JMX/MBeans and testing.
+There is a run time dependency on the
+[Apache Commons Logging](http://commons.apache.org/proper/commons-logging/)
+facade so that it should work with whatever logging framework you already use.
+Logging is used for JNDI and JMX/MBeans and testing.
 
 [GitHub releases page for JSONUtil](https://github.com/billdavidson/JSONUtil/releases)
 
