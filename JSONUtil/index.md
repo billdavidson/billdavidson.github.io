@@ -51,6 +51,8 @@ Logging is used for JNDI and JMX/MBeans and testing.
 
 [Get JSONUtil from the Maven Central Repository](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
 
+[Report any issues here:](https://github.com/billdavidson/JSONUtil/issues)
+
 <h4 id="downloads">Downloads</h4>
 
 <table>
