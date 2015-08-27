@@ -15,7 +15,7 @@ traversed, allowing you to encode complex data graphs in one call.
 
 There is also an interface provided called JSONAble which enables marking classes
 that can convert themselves to JSON and when those are encountered as the values
-in a Map, Iterable, Enumeration or array, their JSONAble#toJSON(JSONConfig,Writer)
+in a Map, Iterable, Enumeration or array, their JSONAble.toJSON(JSONConfig,Writer)
 method will be called to add them to the output.
 
 This library is oriented towards being
