@@ -47,11 +47,11 @@ Logging is used for JNDI and JMX/MBeans and testing.
 
 [GitHub releases page for JSONUtil](https://github.com/billdavidson/JSONUtil/releases)
 
-[Javadoc for JSONUtil 1.0 online](javadoc)
+[Javadoc online](http://kopitubruk.org/JSONUtil/javadoc)
 
-[Get JSONUtil from the Maven Central Repository](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
+[JSONUtil at the Maven Central Repository](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
 
-[Report issues](https://github.com/billdavidson/JSONUtil/issues)
+[Report Issues](https://github.com/billdavidson/JSONUtil/issues)
 
 <h4 id="downloads">Downloads</h4>
 
