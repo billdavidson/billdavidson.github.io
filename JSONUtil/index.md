@@ -60,27 +60,27 @@ Logging is used for JNDI and JMX/MBeans and testing.
   <tbody>
     <tr>
       <td>Java 8</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0-sources.jar">Sources</a></td>
+      <td>[Library](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0.jar)</td>
+      <td>[Javadoc](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0-javadoc.jar)</td>
+      <td>[Sources](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0/JSONUtil-1.0-sources.jar)</td>
     </tr>
     <tr>
       <td>Java 7</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7-sources.jar">Sources</a></td>
+      <td>[Library](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7.jar)</td>
+      <td>[Javadoc](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7-javadoc.jar)</td>
+      <td>[Sources](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java7/JSONUtil-1.0-java7-sources.jar)</td>
     </tr>
     <tr>
       <td>Java 6</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6-sources.jar">Sources</a></td>
+      <td>[Library](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6.jar")</td>
+      <td>[Javadoc](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6-javadoc.jar)</td>
+      <td>[Sources](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java6/JSONUtil-1.0-java6-sources.jar)</td>
     </tr>
     <tr>
       <td>Java 5</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5-sources.jar">Sources</a></td>
+      <td>[Library](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5.jar)</td>
+      <td>[Javadoc](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5-javadoc.jar)</td>
+      <td>[Sources](https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.0-java5/JSONUtil-1.0-java5-sources.jar)</td>
     </tr>
   </tbody>
 </table>
