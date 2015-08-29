@@ -86,3 +86,5 @@ Logging is used for JNDI and JMX/MBeans and testing.
 </table>
 
 <!-- /.tiles -->
+
+<div id="comments"></div>
