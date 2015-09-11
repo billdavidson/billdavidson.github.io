@@ -20,6 +20,13 @@ that can convert themselves to JSON and when those are encountered as the values
 in a Map, Iterable, Enumeration or array, their JSONAble#toJSON(JSONConfig,Writer)
 method will be called to add them to the output.
 
+The JSONParser class will parse JSON data.  It converts Javascript objects to
+LinkedHashMap's with the property names being the keys.  It converts Javascript
+arrays to ArrayList's.  It is more permissive in the data that it accepts than
+the JSON standard. It allows Javascript strings with either type of quote.  It
+allows unquoted identifiers. It allows full Javascript numbers. It also allows
+ECMAScript 6 style code point escapes.
+
 This library is oriented towards being
 used in web servers and includes several options for validation and
 controlling the way that the JSON is generated.  Defaults for those options
