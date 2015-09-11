@@ -47,7 +47,7 @@ Logging is used for JNDI and JMX/MBeans and testing.
 
 [GitHub releases page for JSONUtil](https://github.com/billdavidson/JSONUtil/releases)
 
-[Javadoc online](http://kopitubruk.org/JSONUtil/javadoc)
+[Javadoc online](http://kopitubruk.org/JSONUtil/javadoc) - start with the JSONUtil class.
 
 [JSONUtil at the Maven Central Repository](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.kopitubruk.util%22%20AND%20a%3A%22JSONUtil%22)
 
@@ -56,31 +56,31 @@ Logging is used for JNDI and JMX/MBeans and testing.
 <h4 id="downloads">Downloads</h4>
 
 <table>
-  <caption>Release 1.1.1</caption>
+  <caption>Release 1.2</caption>
   <tbody>
     <tr>
       <td>Java 8</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1/JSONUtil-1.1.1.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1/JSONUtil-1.1.1-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1/JSONUtil-1.1.1-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2/JSONUtil-1.2.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2/JSONUtil-1.2-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2/JSONUtil-1.2-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 7</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1-java7/JSONUtil-1.1.1-java7.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1-java7/JSONUtil-1.1.1-java7-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1-java7/JSONUtil-1.1.1-java7-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java7/JSONUtil-1.2-java7.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java7/JSONUtil-1.2-java7-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java7/JSONUtil-1.2-java7-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 6</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1-java6/JSONUtil-1.1.1-java6.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1-java6/JSONUtil-1.1.1-java6-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.1-java6/JSONUtil-1.1.1-java6-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java6/JSONUtil-1.2-java6.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java6/JSONUtil-1.2-java6-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java6/JSONUtil-1.2-java6-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 5</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.2-java5/JSONUtil-1.1.2-java5.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.2-java5/JSONUtil-1.1.2-java5-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.1.2-java5/JSONUtil-1.1.2-java5-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java5/JSONUtil-1.2-java5.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java5/JSONUtil-1.2-java5-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.2-java5/JSONUtil-1.2-java5-sources.jar">Sources</a></td>
     </tr>
   </tbody>
 </table>
