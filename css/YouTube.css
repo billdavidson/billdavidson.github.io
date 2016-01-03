@@ -34,7 +34,7 @@ body {
  * anything.  It is non-standard CSS but it works on most modern
  * browsers.
  */
-* {
+body, table, tr, td, h2, p, form, button {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
