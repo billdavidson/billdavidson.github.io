@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+ Copyright 2015 Bill Davidson
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>YouTube Editor Text Fixer</title>
+    <link rel="stylesheet" type="text/css" href="css/YouTube.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <h2 class="pageHeader">YouTube Editor Text Fixer</h2>
+          <p>
+            YouTube's comments editor is broken.  It sometimes turns CR-LF
+            into LF-LF and it also turns some characters into HTML entities
+            such as single and double quotes and doesn't change them back.
+          </p>
+          <p>
+            Paste YouTube's broken editor text to the text area and this
+            will fix it automatically so that you can copy/paste it back.
+          </p>
+          <form>
+            <p>
+              <button type="reset" id="clearBtn">Clear</button>
+              &nbsp;
+              <button type="button" id="fixBtn">Fix</button>
+            </p>
+            <p><textarea id="editor" rows="50" cols="100"></textarea></p>
+          </form>
+        </td>
+        <td class="widthHog"></td>
+      </tr>
+    </table>
+    <p>Copyright &copy; 2015 Bill Davidson</p>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/YouTube.js"></script>
+  </body>
+</html>

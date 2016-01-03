@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+ Copyright 2015 Bill Davidson
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+body {
+    background-color: #FBFAF8;
+}
+
+.pageHeader {
+    text-align: center;
+}
+
+.widthHog {
+    width: 100%;
+}
+
+/*
+ * In practice, sometimes I accidentally selected the entire page
+ * when I just wanted the editor textarea.  This disables selecting
+ * anything.  It is non-standard CSS but it works on most modern
+ * browsers.
+ */
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*
+ * Enable selecting the text in the editor textarea only.
+ */
+#editor {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
