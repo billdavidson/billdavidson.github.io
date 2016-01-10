@@ -28,13 +28,24 @@ body {
     width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+table, tbody, tr, td {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
 /*
  * In practice, sometimes I accidentally selected the entire page
  * when I just wanted the editor textarea.  This disables selecting
  * anything.  It is non-standard CSS but it works on most modern
  * browsers.
  */
-body, table, tr, td, h2, p, form, button {
+body, table, tbody, tr, td, h2, p, form, button, div {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;

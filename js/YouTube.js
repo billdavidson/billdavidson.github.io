@@ -27,8 +27,8 @@ function fixYoutube()
 	var str = textarea.text();
 	textarea = null;
 	str = str.replace(/\r/gm, "");
-	str = str.replace(/\n{3,}/gm, "\n\n");
 	str = str.replace(/[ \t]+$/gm, "");
+	str = str.replace(/\n{3,}/gm, "\n\n");
 	var i = str.length - 1;
 	if ( i >= 0 ){
 		while ( str.slice(i, i+1).match(/\s/) ){
