@@ -1,5 +1,5 @@
 /*
- * Copyright 2015 Bill Davidson
+ * Copyright 2015-2016 Bill Davidson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,7 @@
 "use strict";
 
 /**
- * Fix broken YouTube comments in the textarea with id
- * "editor".
+ * Fix broken YouTube comments in the textarea with id "editor".
  */
 function fixYoutube()
 {
@@ -43,6 +42,17 @@ function fixYoutube()
 }
 
 /**
+ * The problem with the paste event is that it runs before the textarea text is
+ * actually changed. Remember that Javascript is single threaded so events must
+ * be queued and using setTimeout() makes fixYouTube() run last in the queue,
+ * after the paste is done changing the textarea.
+ */
+function fixYouTubeLast()
+{
+    setTimeout(fixYoutube, 0);
+}
+
+/**
  * Remove everything from the editor textarea.
  */
 function clearEditor()
@@ -57,7 +67,7 @@ $(document).ready(
     function()
     {
     	// set up the event handlers.
-    	$("#editor").on("change paste", fixYoutube);
+    	$("#editor").on("paste", fixYouTubeLast);
     	$("#fixBtn").on("click", fixYoutube);
     	$("#clearBtn").on("click", clearEditor);
     }
