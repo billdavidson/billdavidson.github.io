@@ -18,46 +18,23 @@
 /**
  * Fix broken YouTube comments in the textarea with id "editor".
  */
-function fixYoutube()
+function fixYouTube()
 {
-	// using a textarea avoids XSS risks.
-	var textarea = $("textarea");
-	textarea.html($("#editor").val()); // handle entities.
-	var str = textarea.text();
-	textarea = null;
-	str = str.replace(/\r/gm, "");
-	str = str.replace(/[ \t]+$/gm, "");
-	str = str.replace(/\n{3,}/gm, "\n\n");
-	var i = str.length - 1;
-	if ( i >= 0 ){
-		while ( str.slice(i, i+1).match(/\s/) ){
-			--i;
-		}
-		++i;
-		if ( i < str.length ){
-			str = str.slice(0, i);
-		}
-	}
-	$("#editor").val(str);
-}
+    // using a textarea avoids XSS risks.  handle entities.
+    var textarea = $("textarea");
+    textarea.html($("#editor").val());
+    var str = textarea.text();
+    textarea = null;
+    
+    // Valid entities have been translated to their text value in str.
 
-/**
- * The problem with the paste event is that it runs before the textarea text is
- * actually changed. Remember that Javascript is single threaded so events must
- * be queued and using setTimeout() makes fixYouTube() run last in the queue,
- * after the paste is done changing the textarea.
- */
-function fixYouTubeLast()
-{
-    setTimeout(fixYoutube, 0);
-}
+    str = str.replace(/\r/gm, "");              // remove all carriage returns.
+    str = str.replace(/[ \t]+$/gm, "");         // remove trailing whitespace per line.
+    str = str.replace(/\n{3,}/gm, "\n\n");      // no more than one blank line at a time.
+    str = $.trim(str);
 
-/**
- * Remove everything from the editor textarea.
- */
-function clearEditor()
-{
-    $("#editor").text("");
+    // put the fixed text back into the textarea.
+    $("#editor").val(str);
 }
 
 /*
@@ -66,9 +43,22 @@ function clearEditor()
 $(document).ready(
     function()
     {
-    	// set up the event handlers.
-    	$("#editor").on("paste", fixYouTubeLast);
-    	$("#fixBtn").on("click", fixYoutube);
-    	$("#clearBtn").on("click", clearEditor);
+        // the paste event for the editor textarea.
+        $("#editor").on("paste",
+                        function()
+                        {
+                            // run after paste completes.
+                            setTimeout(fixYouTube, 0);
+                        });
+
+        // the fix button.
+        $("#fixBtn").on("click", fixYouTube);
+        
+        // the clear button.
+        $("#clearBtn").on("click",
+                          function()
+                          {
+                              $("#editor").text("");
+                          });
     }
 );
