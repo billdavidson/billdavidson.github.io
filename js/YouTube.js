@@ -58,7 +58,7 @@ $(document).ready(
         $("#clearBtn").on("click",
                           function()
                           {
-                              $("#editor").text("");
+                              $("#editor").empty();
                           });
     }
 );
