@@ -26,7 +26,7 @@ arrays to ArrayList's.  It is more permissive in the data that it accepts than
 the JSON standard. It allows Javascript strings with either type of quote.  It
 allows unquoted identifiers. It allows full Javascript numbers. It also allows
 ECMAScript 6 style code point escapes.  It can take as input either a string or
-a class that extends java.io.Reader such as InputStreamReader, BufferedReader
+an object of a class that extends java.io.Reader such as InputStreamReader, BufferedReader
 or FileReader.
 
 This library is oriented towards being
