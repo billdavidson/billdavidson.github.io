@@ -15,6 +15,10 @@ objects or primitives. In many cases it may be possible to use existing data
 structures without modification.  Maps, Iterables, Enumerations and arrays are
 traversed, allowing you to encode complex data graphs in one call.
 
+Using Java's reflection API to encode objects is supported.  See
+[Using Reflection to Encode Objects as JSON](https://github.com/billdavidson/JSONUtil/wiki/Using-Reflection-to-Encode-Objects-as-JSON)
+
+
 There is also an interface provided called JSONAble which enables marking classes
 that can convert themselves to JSON and when those are encountered as the values
 in a Map, Iterable, Enumeration or array, their JSONAble#toJSON(JSONConfig,Writer)
@@ -65,31 +69,31 @@ Logging is used for JNDI and JMX/MBeans and testing.
 <h4 id="downloads">Downloads</h4>
 
 <table>
-  <caption>Release 1.8</caption>
+  <caption>Release 1.9</caption>
   <tbody>
     <tr>
       <td>Java 8</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 7</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java7.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java7-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java7-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java7.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java7-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java7-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 6</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java6.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java6-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java6-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java6.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java6-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java6-sources.jar">Sources</a></td>
     </tr>
     <tr>
       <td>Java 5</td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java5.jar">Library</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java5-javadoc.jar">Javadoc</a></td>
-      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.8/JSONUtil-1.8-java5-sources.jar">Sources</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java5.jar">Library</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java5-javadoc.jar">Javadoc</a></td>
+      <td><a href="https://github.com/billdavidson/JSONUtil/releases/download/JSONUtil-1.9/JSONUtil-1.9-java5-sources.jar">Sources</a></td>
     </tr>
   </tbody>
 </table>
