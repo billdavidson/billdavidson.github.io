@@ -6,6 +6,23 @@ comments: true
 categories: release
 ---
 
+#### Features
+* Recursive traversal of Maps, Iterables (Collection, List, Set etc.), Enumerations, arrays and ResourceBundles
+* Data structure loop detection
+* Reflection of objects is supported allowing lazy encoding of objects.
+* Property name validation (can use ECMAScript or JSON rules)
+* Output to String or java.io.Writer
+* JSON parsing to Java objects from Strings or java.io.Reader
+* Options to fix certain types of bad data
+* Automatic escaping of characters required to be escaped by the JSON standard.
+* Several different escaping options
+* Option to format dates on output and handle different formats when parsing
+* ECMAScript 6 code point escapes are supported for reading and optionally for writing
+* The default values for most configuration options can be changed.
+* Most defaults can be set via JNDI (See the JSONConfigDefaults class)
+* Most defaults can be read or modified via a JMX MBean client
+* Option to format output for debugging.
+
 This is a JSON generation library for Java.  Instead of creating its own maps for
 objects or lists for arrays, this package allows you to use any Map you like,
 allowing for iterations on your Map to be predictable by using a TreeMap or a
@@ -17,7 +34,6 @@ traversed, allowing you to encode complex data graphs in one call.
 
 Using Java's reflection API to encode objects is supported.  See
 [Using Reflection to Encode Objects as JSON](https://github.com/billdavidson/JSONUtil/wiki/Using-Reflection-to-Encode-Objects-as-JSON)
-
 
 There is also an interface provided called JSONAble which enables marking classes
 that can convert themselves to JSON and when those are encountered as the values
